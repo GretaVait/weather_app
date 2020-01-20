@@ -1,0 +1,46 @@
+@import './variables';
+
+.search {
+    padding: 50px 25px;
+    @include breakpoint(768) {
+        padding: 50px 80px;
+    }
+    @include breakpoint(1350) {
+        padding: 50px 400px;
+    }
+    .search__form {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin: 10px 0 0 0;
+        .search__input {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            font-size: 2em;
+            font-weight: 600;
+            padding: 10px 0;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            border-bottom: 1px solid black;
+            @include breakpoint(768) {
+                font-size: 2.5em;
+            }
+        }
+        .search__btn {
+            background-color: transparent;
+            border: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            justify-self: flex-end;
+            cursor: pointer;
+            @include breakpoint(768) {
+                font-size: 2em;
+            }
+        }
+    }
+}

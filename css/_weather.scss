@@ -1,0 +1,44 @@
+@import "./variables";
+
+.weather {
+    padding: 50px 25px;
+    @include breakpoint(768) {
+        padding: 50px 80px;
+    }
+    @include breakpoint(1350) {
+        padding: 50px 400px;
+    }
+    .weather__display {
+        padding: 30px;
+        box-shadow: 0 5px 6px rgba($color: #000000, $alpha: 0.5);
+        border-radius: 15px;
+        background-color: #f0f0f5;
+        @include breakpoint(768) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 100px 50px;
+        }
+        .weather__location {
+            @include breakpoint(768) {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+        }
+        .weather__icon {
+            display: block;
+            margin: 30px auto;
+            width: 132px;
+            @include breakpoint(768) {
+                grid-row-start: 2;
+                grid-row-end: 5;
+                margin: 30px 0;
+            }
+        }
+        .weather__temp {
+            cursor: pointer;
+        }
+        .weather__desc {
+            margin: 0 0 15px 0;
+        }
+    }
+}

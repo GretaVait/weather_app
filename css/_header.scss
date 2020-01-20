@@ -1,0 +1,14 @@
+@import "./variables";
+
+header {
+    background-color: #FCC419;
+    padding: 25px;
+    .logo {
+        font-size: 2em;
+        text-transform: uppercase;
+        text-align: center;
+        @include breakpoint(768) {
+            font-size: 3em;
+        }
+    }
+}

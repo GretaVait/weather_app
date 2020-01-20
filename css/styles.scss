@@ -1,0 +1,37 @@
+@import "./variables";
+@import "./header";
+@import "./search";
+@import "./search";
+@import "./weather";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.display1 {
+    font-size: 5em;
+    @include breakpoint(768) {
+        font-size: 6em;
+    }
+}
+
+.display3 {
+    font-size: 2em;
+    @include breakpoint(768) {
+        font-size: 2.5em;
+    }
+}
+
+p {
+    font-size: 1.4em;
+    @include breakpoint(768) {
+        font-size: 1.6em;
+    }
+}

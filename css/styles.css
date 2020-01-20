@@ -1,0 +1,256 @@
+header {
+  background-color: #FCC419;
+  padding: 25px;
+}
+
+header .logo {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  header .logo {
+    font-size: 3em;
+  }
+}
+
+.search {
+  padding: 50px 25px;
+}
+
+@media (min-width: 768px) {
+  .search {
+    padding: 50px 80px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .search {
+    padding: 50px 400px;
+  }
+}
+
+.search .search__form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+  margin: 10px 0 0 0;
+}
+
+.search .search__form .search__input {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  font-size: 2em;
+  font-weight: 600;
+  padding: 10px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  .search .search__form .search__input {
+    font-size: 2.5em;
+  }
+}
+
+.search .search__form .search__btn {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .search .search__form .search__btn {
+    font-size: 2em;
+  }
+}
+
+.search {
+  padding: 50px 25px;
+}
+
+@media (min-width: 768px) {
+  .search {
+    padding: 50px 80px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .search {
+    padding: 50px 400px;
+  }
+}
+
+.search .search__form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+  margin: 10px 0 0 0;
+}
+
+.search .search__form .search__input {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  font-size: 2em;
+  font-weight: 600;
+  padding: 10px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  .search .search__form .search__input {
+    font-size: 2.5em;
+  }
+}
+
+.search .search__form .search__btn {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .search .search__form .search__btn {
+    font-size: 2em;
+  }
+}
+
+.weather {
+  padding: 50px 25px;
+}
+
+@media (min-width: 768px) {
+  .weather {
+    padding: 50px 80px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .weather {
+    padding: 50px 400px;
+  }
+}
+
+.weather .weather__display {
+  padding: 30px;
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: #f0f0f5;
+}
+
+@media (min-width: 768px) {
+  .weather .weather__display {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    padding: 100px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .weather .weather__display .weather__location {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+.weather .weather__display .weather__icon {
+  display: block;
+  margin: 30px auto;
+  width: 132px;
+}
+
+@media (min-width: 768px) {
+  .weather .weather__display .weather__icon {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    grid-row-end: 5;
+    margin: 30px 0;
+  }
+}
+
+.weather .weather__display .weather__temp {
+  cursor: pointer;
+}
+
+.weather .weather__display .weather__desc {
+  margin: 0 0 15px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.display1 {
+  font-size: 5em;
+}
+
+@media (min-width: 768px) {
+  .display1 {
+    font-size: 6em;
+  }
+}
+
+.display3 {
+  font-size: 2em;
+}
+
+@media (min-width: 768px) {
+  .display3 {
+    font-size: 2.5em;
+  }
+}
+
+p {
+  font-size: 1.4em;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.6em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

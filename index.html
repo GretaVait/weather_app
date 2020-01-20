@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2 class="logo">My Weather</h2>
+    </header>
+    <main>
+        <section class="search">
+            <form class="search__form">
+                <input type="text" class="search__input" value="" placeholder="Enter a city...">
+                <button class="search__btn">Set</button>
+            </form>
+            <span class="error"></span>
+        </section>
+        <section class="weather">
+            <div class="weather__display">
+                <h1 class="weather__location display3">France, Paris</h1>
+                <img src="images/clear-day.png" alt="Weather Icon" class="weather__icon">
+                <h1 class="display1 weather__temp">30 C</h1>
+                <h3 class="display3 weather__desc">Sunny</h3>
+                <p class="current-day">Day</p>
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
